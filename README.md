@@ -1,9 +1,9 @@
 # Code Evaluation Sandbox
 
-### Currently working actively on this project (~6H/day min) while applying for multiple job opportunities.
-**CURRENT PROGRESSION:** 1% 🔧  
+### Currently working actively on this project (~4H/day min) while applying for multiple job opportunities.
+**CURRENT PROGRESSION:** 2.5% 🔧  
 **TO DO LEFT:** See [project roadmap](https://github.com/users/maxime-issa-vinci/projects/3) for remaining tasks.  
-**MVP TARGET DATE:** 24-09-2025
+
 
 
 ---
