@@ -48,12 +48,7 @@ redis-data/
 .env.*.local
 
 # Configuration & Secrets
-application-local.properties
-application-local.yml
-application-dev.properties
-application-dev.yml
-application-prod.properties
-application-prod.yml
+
 secrets/
 *.key
 *.pem
