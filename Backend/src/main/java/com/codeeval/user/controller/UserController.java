@@ -1,10 +1,10 @@
-package com.codeeval.user;
+package com.codeeval.user.controller;
 
 import com.codeeval.exception.ResourceNotFoundException;
+import com.codeeval.user.entity.User;
+import com.codeeval.user.repository.UserRepository;
 import jakarta.validation.Valid;
-import org.apache.coyote.Response;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.context.config.ConfigDataResourceNotFoundException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,14 +1,12 @@
 package com.codeeval.submission;
 
-import com.codeeval.user.User;
+import com.codeeval.user.entity.User;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.springframework.web.service.annotation.GetExchange;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 

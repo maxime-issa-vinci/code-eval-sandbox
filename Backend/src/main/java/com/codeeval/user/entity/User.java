@@ -1,4 +1,4 @@
-package com.codeeval.user;
+package com.codeeval.user.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -17,6 +17,18 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+    @Column(name = "username")
+    private String username;
+    @Column(name = "password")
+    private String password;
+    @Column(name = "enabled")
+    private Boolean enabled;
+    @Column(name = "created_at")
+    private String created_at;
+    @Column(name = "last_login_at")
+    private String last_login_at;
+    @Column(name = "role")
+    private Role role;
     @Column(name = "first_name")
     private String firstName;
     @Column(name = "last_name")
